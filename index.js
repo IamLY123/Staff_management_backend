@@ -9,7 +9,7 @@ const connection = mysql.createConnection({
   port: 8889,
   user: "root",
   database: "staff",
-  password: "root",
+  password: "",
 });
 const corsOptions = {
   origin: 'http://localhost:4200',
